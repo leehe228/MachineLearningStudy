@@ -36,6 +36,6 @@ def to_csv(name, maxdata):
     img_f.close()
 
 # 결과를 파일로 출력하기
-to_csv("train", 99999)
+to_csv("train", 1000)
 to_csv("t10k", 500)
 print("done")
